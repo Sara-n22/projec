@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel=""stylesheet" href="porfolio.css">
+  <style>
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { margin:0;padding:0;background-color: #e05d9a; font-family: Arial, sans-serif; line-height: 1.6; }
+
+    header {
+      background: hwb(327 42% 15% / 0.856);
+      color: rgb(209, 109, 171);
+      padding: 15px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; }
+    nav { margin-top: 10px; }
+    nav a {
+      color: rgb(190, 23, 135);
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover { color: #e05d9a; }
+
+    section { padding: 40px 20px; }
+    h2 { text-align: center; margin-bottom: 20px; }
+
+    .about, .skills, .projects, .contact {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .skills-list, .projects-list {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .card {
+      background: #f1e7ed;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    form { display: flex; flex-direction: column; max-width: 500px; margin: auto; }
+    input, textarea {
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      padding: 10px;
+      background: #3498db;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover { background: #2980b9; }
+
+    footer {
+      background: hwb(327 42% 15% / 0.856);
+      color: rgb(15, 14, 14);
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    section{
+      background-color: rgb(211, 102, 157);
+      color:rgb(241, 240, 241);
+    }
+    div{
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header style="color: rgb(238, 231, 234);">
+    <h1>SARANYA's PORTFOLIO</h1>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2 style="color:rgb(104, 14, 63) ;">ABOUT ME</h2>
+    <p>Hello! I'm SARANYA, a passionate learner in Web Development and
+      Enthusiastic computer science graduate with strong skill in JAVA,HTML,CSS,JAVASCRIPT,REACT JS AND SQL and eager to apply
+      problem solving and database management knowledge in real-world application and
+    I enjoy building projects that solve real-world problems and improve my skills every day.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 style="color:rgb(104, 14, 63) ;">SKILLS</h2>
+    <div class="skills-list">
+      <div class="card">Java</div>
+      <div class="card">HTML5</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">React js</div>
+      <div class="card">SQL</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 style="color:rgb(104, 14, 63) ;">PROJECTS</h2>
+     <div class="projects-list">
+      <div class="card">
+        <a href="C:\Users\user\Desktop\html\expense.html" target="_blank">Expense Tracker</a></div>
+      <div class="card">
+        <a href="C:\Users\user\Desktop\html\game.html" target="_blank">GAME</a></div>
+      <div class="card">
+         <a href="C:\Users\user\Desktop\html\event.html" target="_blank">EVENT</a></div>
+      <div class="card">
+        <a href="C:\Users\user\Desktop\html\todolist.html" target="_blank">TO-DO-LIST</a></div>
+      <div class="card">
+        <a href="C:\Users\user\Desktop\html\quiz.html" target="_blank">QUIZ</a></div>
+        <div class="card">
+          <a href="C:\Users\user\Desktop\html\loginpage.html" target="_blank">LOGIN PAGE</a></div>
+          <div class="card">
+            <a href="C:\Users\user\Desktop\html\website.html" target="_blank">BOUQUET SHOP</a></div>
+    
+  
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 style="color:rgb(104, 14, 63) ;">CONTACTS</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <footer class="footer">
+    
+      <div class="footer-content">
+  
+          <h2>Let's Connect</h2>
+          <p>Feel free to reach out for collaborations or opportunities.</p>
+  
+          <div class="contact-info">
+              <p>msaranyasaranya51@gmail.com</p>
+              <p>📱 +91 6369931989</p>
+          </div>
+  
+          <div class="social-links">
+              <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+              <a href="https://github.com" target="_blank">GitHub</a>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+          </div>
+  
+      </div>
+  
+      <p class="copyright">© 2026 SARANYA | Portfolio</p>
+  
+  </footer>
+
+  </footer>
+
+</body>
+</html>
